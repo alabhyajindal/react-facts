@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./components/Footer";
 import ProfileDetails from "./components/ProfileDetails";
 import ProfileImage from "./components/ProfileImage";
 import ProfileLinks from "./components/ProfileLinks";
@@ -9,6 +10,7 @@ export default function App() {
       <ProfileImage />
       <ProfileLinks />
       <ProfileDetails />
+      <Footer />
     </>
   );
 }
